@@ -70,11 +70,11 @@ public class Marathon {
         int c = 0;
         for (int i = 0; i < minutes.length; i++) {
             if (minutes[i] >= 400)
-                a++;
+                c++;
             else if (minutes[i] >= 300)
                 b++;
             else if (minutes[i] >= 200)
-                c++;
+                a++;
         }
         System.out.println("A -> " + a);
         System.out.println("B -> " + b);
